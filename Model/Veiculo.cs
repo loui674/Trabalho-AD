@@ -5,7 +5,7 @@ namespace Trabalho_AD.Model
 {
     public class Veiculo
     {
-        //[Key]
+        [Key]
         public int id { get; set; }
         public int ano { get; set; }
         public int idMarca  { get; set; }

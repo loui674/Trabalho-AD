@@ -12,6 +12,9 @@ namespace Trabalho_AD
 
         public DbSet<Veiculo> Veiculo { get; set; }
 
+        public DbSet<Reserva> Reserva { get; set; }
+
+        public DbSet<Cliente> Cliente { get; set; }
     }
 
 }
